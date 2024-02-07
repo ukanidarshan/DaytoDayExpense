@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "418948764527",
+    "project_id": "daytodayexpense-b3ed9",
+    "storage_bucket": "daytodayexpense-b3ed9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418948764527:android:bca7943249d94c1c590e9a",
+        "android_client_info": {
+          "package_name": "com.example.daytodayexpense"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxP_peMMdUz1BZdpxGn1GoHZ2b6ZWq-xQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
