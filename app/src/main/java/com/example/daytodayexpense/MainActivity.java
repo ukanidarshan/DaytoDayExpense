@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
         daily.setArguments(bundle);
         Fragment monthly = new Monthly();
         monthly.setArguments(bundle);
+        Fragment yearly = new Yearly();
+        yearly.setArguments(bundle);
 
         viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
 
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         viewPagerAdapter.add(new notes(), "Notes");
         viewPagerAdapter.add(daily, "Daily");
         viewPagerAdapter.add(monthly, "Monthly");
-        viewPagerAdapter.add(new Yearly(), "Yearly");
+        viewPagerAdapter.add(yearly, "Yearly");
 
         // Set the adapter
         binding.viewpager.setAdapter(viewPagerAdapter);
